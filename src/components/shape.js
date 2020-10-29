@@ -1,16 +1,16 @@
 class Shape {
-    constructor(){
+    constructor() {
         this.color = "red";
     }
 
     drawShape() {
-        console.log();
+        console.log("Drawing a Shape");
     }
 
     calculateArea (){
-        console.log();
+        console.log("Don't know the area of Unknown shape");
         return 0;
     }
 }
 
-module.exports = Shape;
+module.exports = 'Shape';
