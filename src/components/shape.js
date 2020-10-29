@@ -1,4 +1,4 @@
-export default class Shape {
+class Shape {
     constructor(){
         this.color = "red";
     }
@@ -13,3 +13,4 @@ export default class Shape {
     }
 }
 
+module.exports = Shape;
