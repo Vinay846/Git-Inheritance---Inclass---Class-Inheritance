@@ -6,7 +6,7 @@
 // export class using module.exports
 
 const Shape = require('./shape');
-class Circle{
+class Circle extends Shape {
     constructor(){
         super();
     }
@@ -16,4 +16,4 @@ class Circle{
     }
 }
 
-module.exports = 'Circle';
+module.exports = Circle;
